@@ -1,0 +1,12 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "dev:client": "pnpm --filter=client dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
