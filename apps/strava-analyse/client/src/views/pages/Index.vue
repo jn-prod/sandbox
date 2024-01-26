@@ -1,0 +1,42 @@
+<template>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-4 text-center d-sm-none d-md-flex">
+        <img
+          src="/img/g1327.png"
+          alt=""
+          class="img img-fluid img img-fluid pt-5 pb-5 mt-5"
+        />
+      </div>
+      <div id="index-right" class="col-md-8">
+        <div class="row">
+          <div class="col-12 pt-5 mt-5 text-sm-center text-md-left">
+            <span class="h1 d-block mt-5 mb-5 font-primary"
+              >Suivez vos entrainements et fixez-vous des objectifs.</span
+            >
+            <em class="d-block mb-5"
+              >Running, Cyclisme, Natation, Triathlon, Randonnée et fitness.
+              Pratiquez une activité avec régularité pour participez à votre
+              prochain événement.</em
+            >
+            <div class="row">
+              <div
+                class="col-auto mx-sm-auto mx-md-0 text-sm-center text-md-left"
+              >
+                <router-link to="/login" class="btn btn-primary p-3"
+                  >Commencez gratuitement</router-link
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Index",
+};
+</script>
